@@ -4,7 +4,7 @@ function DefaultLayout({ children }) {
     return (
         <div>
             <Header />
-            <div className="container">
+            <div className="container w-[1200px]">
                 <div className="content">{children}</div>
             </div>
         </div>
